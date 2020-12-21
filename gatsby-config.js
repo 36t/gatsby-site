@@ -40,10 +40,10 @@ module.exports = {
       __key: "pages",
     },
     {
-      resolve: `gatsby-plugin-typescript`,
+      resolve: "gatsby-plugin-typescript",
       options: {
         isTSX: true, 
-        jsxPragma: `jsx`, 
+        jsxPragma: "jsx", 
         allExtensions: true,
       },
     },
